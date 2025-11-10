@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Airbnb PriceVaultBnbPro Dashboard
 
-## Getting Started
+A full-stack Airbnb analytics dashboard built with Next.js, TypeScript, Tailwind CSS, and Recharts, connected to a FastAPI machine-learning backend.
+Designed for Airbnb hosts and property managers to predict nightly pricing, track market growth, and analyze location-based performance trends through dynamic charts and real-time data simulations.
+---
 
-First, run the development server:
+## Overview
+This is a **frontend demo** of a full-stack project built in collaboration with **Juanda Acevedo**, who developed the backend machine-learning model with **FastAPI**.
 
+I focused on the **frontend architecture, real-time data visualization, and API integration**.  
+The private full-stack version connects directly to a FastAPI prediction endpoint hosted on Koyeb.
+
+---
+
+## Features
+- **Predictive Form:** Users can input property details and get a predicted nightly rate.  
+- **Live Market Insights:** Simulates real-time market data using dynamic updates every few seconds.  
+- **Interactive Charts:** Built with Recharts to show price trends, top cities, and property type distribution.  
+- **Modern UI:** Designed with Tailwind CSS, responsive layouts, and smooth transitions.  
+- **Full-Stack Collaboration:** Integrated backend prediction API with Next.js fetch routes.
+
+---
+
+## Tech Stack
+**Frontend:** Next.js, TypeScript, Tailwind CSS, Recharts  
+**Icons:** Lucide React  
+**Backend (Private):** FastAPI ML model hosted on Koyeb  
+**Deployment:** Vercel (frontend demo), Private full-stack hosted separately  
+
+---
+
+## Role
+**Role:** Full-Stack Developer  
+**Responsibilities:**
+- Designed and implemented the dashboard UI and components.  
+- Integrated API endpoints with live mock data simulation for the demo.  
+- Collaborated with the backend engineer to connect FastAPI ML predictions.  
+- Managed deployment pipeline and hosting via Vercel.  
+
+---
+
+## Demo Preview
+**Live Demo:** [https://bnbradargenie.vercel.app/](#)
+
+---
+
+## Local Setup
 ```bash
+git clone https://github.com/<yourusername>/airbnb-analytics-dashboard-demo.git
+cd airbnb-analytics-dashboard-demo
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
