@@ -41,7 +41,7 @@ The private full-stack version connects directly to a FastAPI prediction endpoin
 ---
 
 ## Demo Preview
-**Live Demo:** [https://bnbradargenie.vercel.app/](#)
+**Live Demo:** [https://bnbradargenie.vercel.app/](https://bnbradargenie.vercel.app/)
 
 ---
 
