@@ -4,9 +4,8 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    // Send data to Juanda’s FastAPI backend
     const res = await fetch(
-      "https://suspicious-daune-juandavidacevedon-42795941.koyeb.app/predict",
+      "https://example.com",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

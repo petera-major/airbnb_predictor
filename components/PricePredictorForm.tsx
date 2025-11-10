@@ -71,7 +71,6 @@ export function PricePredictorForm({ onPredict }: PricePredictorFormProps) {
   
       const prediction = await res.json();
   
-      // ✅ Merge backend response with form data
       onPredict({
         location,
         propertyType,
@@ -112,7 +111,6 @@ export function PricePredictorForm({ onPredict }: PricePredictorFormProps) {
           />
         </div>
 
-        {/* Property Type */}
         <div className="space-y-2">
           <Label htmlFor="propertyType">Property Type</Label>
           <Select value={propertyType} onValueChange={setPropertyType}>
@@ -124,7 +122,6 @@ export function PricePredictorForm({ onPredict }: PricePredictorFormProps) {
           </Select>
         </div>
 
-        {/* Bedrooms, Bathrooms, Guests */}
         <div className="grid grid-cols-3 gap-4">
           <div className="space-y-2">
             <Label htmlFor="bedrooms" className="flex items-center gap-1">
@@ -175,7 +172,6 @@ export function PricePredictorForm({ onPredict }: PricePredictorFormProps) {
           </div>
         </div>
 
-        {/* Rating */}
         <div className="space-y-3">
           <Label className="flex items-center gap-2">
             <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
@@ -191,7 +187,6 @@ export function PricePredictorForm({ onPredict }: PricePredictorFormProps) {
           />
         </div>
 
-        {/* Amenities */}
         <div className="space-y-3">
           <Label>Amenities</Label>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
@@ -212,7 +207,6 @@ export function PricePredictorForm({ onPredict }: PricePredictorFormProps) {
           </div>
         </div>
 
-        {/* Submit Button */}
         <Button
           type="submit"
           className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white shadow-lg"

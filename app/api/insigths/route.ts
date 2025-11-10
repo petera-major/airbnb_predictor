@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export async function GET() {
   try {
     const res = await fetch(
-      "https://suspicious-daune-juandavidacevedon-42795941.koyeb.app/insights"
+      "https://example.com"
     );
 
     const data = await res.json();
