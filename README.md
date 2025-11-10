@@ -2,6 +2,7 @@
 
 A full-stack Airbnb analytics dashboard built with Next.js, TypeScript, Tailwind CSS, and Recharts, connected to a FastAPI machine-learning backend.
 Designed for Airbnb hosts and property managers to predict nightly pricing, track market growth, and analyze location-based performance trends through dynamic charts and real-time data simulations.
+
 ---
 
 ## Overview
